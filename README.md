@@ -1,7 +1,7 @@
 # 🧠 Trivia-Game-Server-Client
 A real-time multiplayer trivia game built in Python using custom socket communication.
 
-# 🎯 Overview
+## 🎯 Overview
 
 Trivia-Game-Server-Client is a Python-based network trivia system with a dedicated server and interactive clients.
 Users can log in, receive random questions (from a file or the web), answer them in real time, and earn points.
@@ -15,14 +15,14 @@ The server manages:
 
 All communication uses a custom TCP protocol defined in chatlib.py.
 
-# 🌍 Web-Based Question Loading
+## 🌍 Web-Based Question Loading
 
 The project supports loading 50 random trivia questions from the Open Trivia Database API:
 https://opentdb.com/api.php?amount=50&type=multiple
 
 Questions are automatically converted to the server’s internal dictionary format and randomly assigned to each connected user.
 
-# ⚙️ Features
+## ⚙️ Features
 
 - ✅ Persistent user accounts (stored in users.txt)
 - ✅ Option to load local questions from questions.txt
@@ -32,14 +32,15 @@ Questions are automatically converted to the server’s internal dictionary form
 - ✅ Custom TCP message protocol (human-readable)
 - ✅ Robust error handling for invalid messages and disconnects
 
-# 🧩 Architecture
+## 🧩 Architecture
 
 The system includes three main components:
 - 🖥 multi_server.py – Handles user connections, authentication, question logic, and scoring.
 - 💬 client.py – Connects to the server, displays questions, and sends answers.
 - 📜 chatlib.py – Defines the communication protocol and message structure between client and server.
 
-# 🎬 Stages Preview
+## 🎬 Stages Preview
+
 ### Stage 1 – Login Success
 ![Login Success](images/trivia1.png)
 
@@ -51,4 +52,8 @@ The system includes three main components:
 
 ### Stage 4 – Wrong Answer in Question
 ![Wrong Answer](images/trivia4.png)
+
+## 📝 Summary
+Trivia-Game-Server-Client is a fun and interactive multiplayer trivia system that demonstrates Python networking, custom protocols, and dynamic question handling.  
+It combines real-time gameplay, persistent user tracking, and flexible question sources, making it a great project for learning and showcasing Python network programming skills.
 
