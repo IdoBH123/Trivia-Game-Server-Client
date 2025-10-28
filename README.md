@@ -39,5 +39,16 @@ The system includes three main components:
 - 💬 client.py – Connects to the server, displays questions, and sends answers.
 - 📜 chatlib.py – Defines the communication protocol and message structure between client and server.
 
+# 🎬 Stages Preview
+### Stage 1 – Login Success
+![Login Success](images/trivia1.png)
 
+### Stage 2 – High Score Table
+![High Score Table](images/trivia2.png)
+
+### Stage 3 – Correct Answer in Question
+![Correct Answer](images/trivia3.png)
+
+### Stage 4 – Wrong Answer in Question
+![Wrong Answer](images/trivia4.png)
 
