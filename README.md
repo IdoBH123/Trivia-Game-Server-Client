@@ -24,12 +24,12 @@ Questions are automatically converted to the server’s internal dictionary form
 
 # ⚙️ Features
 
-✅ Persistent user accounts (stored in users.txt)
-✅ Dynamic question loading (via API or local file)
-✅ Scoring system (+5 points for correct answers)
-✅ Question tracking per user (prevents repeats)
-✅ Custom TCP message protocol (human-readable)
-✅ Robust error handling for invalid messages and disconnects
+- ✅ Persistent user accounts (stored in users.txt)
+- ✅ Dynamic question loading (via API or local file)
+- ✅ Scoring system (+5 points for correct answers)
+- ✅ Question tracking per user (prevents repeats)
+- ✅ Custom TCP message protocol (human-readable)
+- ✅ Robust error handling for invalid messages and disconnects
 
 # 🧩 Architecture
 
