@@ -35,7 +35,7 @@ Questions are automatically converted to the server’s internal dictionary form
 # 🧩 Architecture
 
 The system includes three main components:
-- 🖥 server.py – Handles user connections, authentication, question logic, and scoring.
+- 🖥 multi_server.py – Handles user connections, authentication, question logic, and scoring.
 - 💬 client.py – Connects to the server, displays questions, and sends answers.
 - 📜 chatlib.py – Defines the communication protocol and message structure between client and server.
 
